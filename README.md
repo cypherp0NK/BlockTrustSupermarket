@@ -27,11 +27,16 @@ npm install @nomicfoundation/hardhat-toolbox
 npm install chai-bn
 npx hardhat
 ```
+
+To compile the contract run:
+
+```npx hardhat compile```
+
 To deploy the contract run:
 
-npx hardhat run scripts/deploy.js
+```npx hardhat run scripts/deploy.js```
 
 To run the tests run:
 
-npx hardhat test
+```npx hardhat test```
 #
