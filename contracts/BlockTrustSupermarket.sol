@@ -1,6 +1,6 @@
 //SPDX-License-Identifier: Unlicense
 pragma solidity 0.8.0;
-
+ 
 contract BlockTrustSupermarket{
     event CheckOutReceipt(address indexed buyer, string[] items, uint256 totalPrice, string homeAddress, bool discount);
     string[] public merch = ["T-Shirt", "Hoodie", "Jacket", "Short", "Trouser", "KeyHolder", "Socks", "Trainers"]; 
